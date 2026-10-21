@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Interactive Restaurant Menu</title>
+</head>
+<body>
+
+<h1>Interactive Restaurant Menu</h1>
+<p>Click on any food item in the image to know more about it.</p>
+
+<!-- Main Food Image with Image Map -->
+<img src="food.jpg" width="600" alt="Restaurant Food Table" usemap="#foodmap">
+
+<map name="foodmap">
+
+    <!-- 2 Circle Areas -->
+    <area shape="circle" coords="280,450,80" href="pizza.html" alt="Pizza" target="_blank">
+    <area shape="circle" coords="520,230,60" href="burger.html" alt="Burger" target="_blank">
+
+    <!-- 2 Rect Areas -->
+    <area shape="rect" coords="150,250,250,330" href="fries.html" alt="French Fries" target="_blank">
+    <area shape="rect" coords="10,300,130,550" href="menu.html" alt="Menu Card">
+
+    <!-- 2 Poly Areas -->
+    <area shape="poly" coords="50,400,120,380,140,450,60,480" href="sandwich.html" alt="Sandwich" target="_blank">
+    <area shape="poly" coords="550,400,600,380,630,450,580,480" href="cake.html" alt="Cake Slice" target="_blank">
+
+    <!-- 1 Default Area -->
+    <area shape="default" href="other.html" alt="Other Area">
+
+</map>
+
+<hr>
+
+<h2>Clickable Areas Details</h2>
+<table border="1" cellpadding="8">
+    <tr>
+        <th>Food Item</th>
+        <th>Shape</th>
+    </tr>
+    <tr><td>Pizza</td><td>circle</td></tr>
+    <tr><td>Burger</td><td>circle</td></tr>
+    <tr><td>French Fries</td><td>rect</td></tr>
+    <tr><td>Menu Card</td><td>rect</td></tr>
+    <tr><td>Sandwich</td><td>poly</td></tr>
+    <tr><td>Cake Slice</td><td>poly</td></tr>
+    <tr><td>Remaining/Other Area</td><td>default</td></tr>
+</table>
+
+</body>
+</html>

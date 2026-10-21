@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Tables</title>
+</head>
+<body>
+
+<h2> NESTED TABLES </h2>
+<hr>
+
+<h3>1. Employee Salary Slip </h3>
+<table border="1" cellpadding="8" cellspacing="0" width="80%">
+    <tr>
+        <td><b>Employee ID</b></td>
+        <td>EMP202</td>
+    </tr>
+    <tr>
+        <td><b>Employee Name</b></td>
+        <td>Pooja Sharma</td>
+    </tr>
+    <tr>
+        <td><b>Department</b></td>
+        <td>Finance</td>
+    </tr>
+    <tr>
+        <td><b>Designation</b></td>
+        <td>Accountant</td>
+    </tr>
+    <tr>
+        <td><b>Month</b></td>
+        <td>August 2025</td>
+    </tr>
+    <tr>
+        <td><b>Salary Details</b></td>
+        <td>
+        
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <tr>
+                    <th colspan="2">Earnings</th>
+                    <th colspan="2">Deductions</th>
+                </tr>
+                <tr>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Item</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Basic Pay</td>
+                    <td>₹28,000</td>
+                    <td>PF</td>
+                    <td>₹2,000</td>
+                </tr>
+                <tr>
+                    <td>HRA</td>
+                    <td>₹7,000</td>
+                    <td>Tax</td>
+                    <td>₹1,800</td>
+                </tr>
+                <tr>
+                    <td>DA</td>
+                    <td>₹4,000</td>
+                    <td>Loan</td>
+                    <td>₹1,000</td>
+                </tr>
+                <tr>
+                    <th>Total Earnings</th>
+                    <th>₹39,000</th>
+                    <th>Total Deductions</th>
+                    <th>₹4,800</th>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+    <tr>
+        <td><b>Net Salary</b></td>
+        <td>₹34,200</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<h3>2. Student Profile & Marks </h3>
+<table border="1" cellpadding="8" cellspacing="0" width="80%">
+    <tr>
+        <td><b>Student Name</b></td>
+        <td>Swapan </td>
+    </tr>
+    <tr>
+        <td><b>Roll Number</b></td>
+        <td>7563</td>
+    </tr>
+    <tr>
+        <td><b>Class</b></td>
+        <td>BCA - 1st Year</td>
+    </tr>
+    <tr>
+        <td><b>Details</b></td>
+        <td>
+            
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Computer Networks</td>
+                    <td>88</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>85</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Database Management</td>
+                    <td>92</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Discrete Mathematics</td>
+                    <td>87</td>
+                    <td>A</td>
+                </tr>
+            </table>
+            
+
+        </td>
+    </tr>
+</table>
+
+<br><br>
+
+<!-- Task 3 -->
+<h3>3. Product Order Summary </h3>
+<table border="1" cellpadding="8" cellspacing="0" width="80%">
+    <tr>
+        <td><b>Order ID</b></td>
+        <td>ORD4578</td>
+    </tr>
+    <tr>
+        <td><b>Customer Name</b></td>
+        <td>Amanpreet Kaur</td>
+    </tr>
+    <tr>
+        <td><b>Order Date</b></td>
+        <td>12-09-2025</td>
+    </tr>
+    <tr>
+        <td><b>Order Items</b></td>
+        <td>
+            <!-- Nested Table Starts -->
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price (₹)</th>
+                    <th>Amount (₹)</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>1</td>
+                    <td>45,000</td>
+                    <td>45,000</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>1</td>
+                    <td>1,200</td>
+                    <td>1,200</td>
+                </tr>
+                <tr>
+                    <td>Backpack</td>
+                    <td>1</td>
+                    <td>2,500</td>
+                    <td>2,500</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Total Amount</th>
+                    <th>48,700</th>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<h3>4. Hotel Booking </h3>
+<table border="1" cellpadding="8" cellspacing="0" width="80%">
+    <tr>
+        <td><b>Guest Name</b></td>
+        <td>Simran Kaur</td>
+    </tr>
+    <tr>
+        <td><b>Booking ID</b></td>
+        <td>HBK7890</td>
+    </tr>
+    <tr>
+        <td><b>Room Type</b></td>
+        <td>Deluxe Room</td>
+    </tr>
+    <tr>
+        <td><b>Booking Details</b></td>
+        <td>
+            
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                <tr>
+                    <th>Check-in Date</th>
+                    <th>Check-out Date</th>
+                    <th>Guests</th>
+                    <th>Charges (₹)</th>
+                </tr>
+                <tr>
+                    <td>15-10-2025</td>
+                    <td>18-10-2025</td>
+                    <td>2</td>
+                    <td>7,500</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Total Charges</th>
+                    <th>7,500</th>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
